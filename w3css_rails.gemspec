@@ -9,15 +9,15 @@ Gem::Specification.new do |spec|
   spec.authors       = ["akashpinnaka"]
   spec.email         = ["aakash.pinnaka@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{A gem whih provides w3.css library.}
+  spec.description   = %q{W3.CSS is a modern CSS framework with built-in responsiveness. Smaller and faster than any other CSS frameworks. Easier to learn, and easier to use than any other CSS frameworks. Better cross-browser compatibility than any other CSS frameworks. Uses standard CSS only (No jQuery or JavaScript library). Supports modern responsive mobile first design by default. Provides CSS equality for all browsers: Chrome, Firefox, Edge, IE, Safari, Opera. Provides CSS equality for all devices: desktop, laptop, tablet, and mobile. Speeds up and simplifies web development.}
+  spec.homepage      = "https://github.com/akashpinnaka/w3css_rails"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+    spec.metadata["allowed_push_host"] = "https://rubygems.org"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
