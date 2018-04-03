@@ -24,7 +24,7 @@ Or install it yourself as:
 
 In your app/assets/stylesheets/application.css, add the below line
 ```ruby
-*= require 'styler_lite'
+*= require 'w3css_rails'
 ```
 
 ## Doumentation
